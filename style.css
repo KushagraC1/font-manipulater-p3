@@ -1,0 +1,40 @@
+canvas{
+    background-color: red;
+    animation-name: anim;
+    animation-duration: 100s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes anim{
+    0%{margin-left: 0px; margin-top: 0px;}
+    25%{margin-left: 20px; margin-top: 30px;}
+    50%{margin-left: 100px; margin-top: 10px;}
+    100%{ margin-left: 0px;margin-top: 0px;}
+}
+
+body{
+    background-color: black;
+    color: azure;
+}
+    .text-heading{
+        font-size: 80px;
+    }
+    .text-para{
+        font-size: xx-large;
+
+    }
+    .footer{
+        bottom:0;
+        width: 100%;
+        line-height: 2;
+        background-color: aqua;
+        position:fixed;
+        text-align: center;
+        font-weight: 800;
+    }
+    #text{
+        font-size: 60px;
+        margin-left: 900px;
+
+   
+    }
